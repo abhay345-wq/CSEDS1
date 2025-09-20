@@ -1,2 +1,2 @@
-# FSD-CSE-DS01
+College Assignment - README
 A SIMPLE COLLEGE HTML INTRO
