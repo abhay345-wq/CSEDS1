@@ -4,7 +4,7 @@ This repository is created as part of the first assignment given by our college 
 <br>
 NAME: ABHAY VATS 
 <br>
-COLLEGE: BTECH CSE DS 
+BRANCH: BTECH CSE DS 
 <br>
 COLLEGE: ABES ENGINEERING COLLEGE 
 
