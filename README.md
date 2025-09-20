@@ -1,2 +1,2 @@
-College Assignment - README
+# College Assignment - README
 A SIMPLE COLLEGE HTML INTRO
