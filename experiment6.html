@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .product-box {
+            display: flex;
+            gap: 20px;
+        }
+
+        .product-image {
+            width: 300px;
+            height: 350px;
+            border: 2px solid #aaa;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .product-details {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #d9534f;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        .spec-box {
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+            padding-top: 15px;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="product-box">
+            
+            <!-- PRODUCT IMAGE -->
+            <img src="smartwatch-8300238_640.webp" class="product-image" alt="Product Image">
+            
+            <!-- PRODUCT DETAILS -->
+            <div class="product-details">
+                <h1>Smartwatch Pro X</h1>
+                <p class="price">INR 7000</p>
+                <p class="description">
+                    High-performance smartwatch with heart rate tracking, GPS, 
+                    water-resistance, and long battery life.
+                </p>
+
+                <button class="btn">Add to Cart</button>
+
+                <div class="spec-box">
+                    <h3>Product Specifications:</h3>
+                    <ul>
+                        <li>Heart Rate Monitor</li>
+                        <li>Waterproof (IP67)</li>
+                        <li>Battery life: 7 Days</li>
+                        <li>Bluetooth 5.0 Connectivity</li>
+                        <li>LCD Touch Display</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
